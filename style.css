@@ -1,0 +1,164 @@
+body{
+	background: whitesmoke;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*//////////////
+//	  HEADER   /
+///////////////*/
+
+header .row-max-header{
+	background: #333;
+	width: 100%;
+	min-width: 960px;
+	height: 200px;
+
+	padding: 0px;
+	margin: 0px;
+}
+
+header .row-max-header .row{
+	width: 960px;
+	height: 200px;
+
+	margin: auto;
+	padding: 0px;
+}
+
+header .row-max-header .row .title {
+	height: 200px;
+	width: 600px;
+
+	display: inline-block;
+	vertical-align: middle;
+
+	margin: 0px;
+	padding: 0px;
+}
+
+header .row-max-header .row .title h1{
+	font-size: 40px;
+	color: whitesmoke;
+
+	margin-top: 70px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+header .row-max-header .row .login {
+	display: inline-block;
+	margin-left: 50px;
+	vertical-align: middle;
+}
+
+header .row-max-header .row .login label{
+	font-size: 25px;
+	color: whitesmoke;
+}
+
+header .row-max-header .row .login .email input{
+	margin-left: 44px;
+}
+
+header .row-max-header .row .login .log-in input{
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+	background: rgba(230,230,230,0.6);
+	border: 0px;
+	width: 140px;
+	height: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 15px 0px 15px 50px;
+	cursor: pointer;
+
+	margin-left: 102px;
+}
+
+/*/////////////////////*/
+/*       SECTION       */
+/*/////////////////////*/
+
+section .row-max-section{
+	height: 900px;
+	width: 100%;
+	min-width: 960px;
+
+	padding: 0px;
+	margin: 0px;
+}
+
+section .row-max-section .row{
+	margin: auto;
+
+	width: 960px;
+	height: 900px;
+}
+
+section .row-max-section .row .logo{
+	margin-top: 200px;
+	display: inline-block;
+}
+
+section .row-max-section .row .description{
+	width: 300px;
+	display: inline-block;
+}
+
+section .row-max-section .row .description p{
+	font-size: 20px;
+}
+section .row-max-section .row .register{
+	display: inline-block;
+	width: 300px;
+	margin-left: 209px;
+}
+
+section .row-max-section .row .register .title h2{
+	font-size: 30px;
+}
+
+section .row-max-section .row .register input{
+	font-size: 20px;
+}
+
+section .row-max-section .row .register select{
+	font-size: 20px;
+	width: 235px;
+}
+
+section .row-max-section .row .register .button input{
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+	background: rgba(230,230,230,0.6);
+	border: 0px;
+	width: 150px;
+	height: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 15px 0px 15px 50px;
+	cursor: pointer;
+}
+
+/*/////////////////////*/
+/*       FOOTER        */
+/*/////////////////////*/
+
+ footer .row-max-footer {
+ 	margin: 0px;
+ 	padding: 0px;
+	height: 150px;
+	width: 100%;
+}
+
+ footer .row-max-footer .row{
+	width: 960px;
+	margin: auto;
+
+	margin-left: 1200px;
+}
